@@ -13,7 +13,9 @@
 1.  I learned the following three key concepts:
 
        1. Model-View-Controller (MVC) Architecture: Helps in creating organized web applications by separating data (Model), user interface (View), and user interactions (Controller).
+     
        2. Routing and URL Mapping: I gained knowledge in configuring clean and user-friendly URLs by defining custom routes and handling parameters effectively in ASP.NET Core MVC.
+     
        3. Middleware and Dependency Injection: I understood the use of middleware for tasks like authentication and error handling, along with the importance of dependency injection for creating modular and testable components in ASP.NET Core development.
 
 2. Three features that I could add to my web application would be:
