@@ -16,7 +16,7 @@
      
        2. Routing and URL Mapping: I gained knowledge in configuring clean and user-friendly URLs by defining custom routes and handling parameters effectively in ASP.NET Core MVC.
      
-       3. Middleware and Dependency Injection: I understood the use of middleware for tasks like authentication and error handling, along with the importance of dependency injection for creating modular and testable components in ASP.NET Core development.
+       3. Scaffolding: Scaffolding simplifies the initial setup of common functionality in a .NET web application, allowing developers to focus on customizing and extending their application rather than writing repetitive boilerplate code.
 
 2. Three features that I could add to my web application would be:
 
