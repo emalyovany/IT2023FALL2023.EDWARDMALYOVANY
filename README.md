@@ -26,7 +26,9 @@
        
        3. Create a user profile dashboard where users can view their hiking statistics and progress over time.
        
-       I added the first one. I did not use an API for this. I used an external application where you can find trails near you. I added a "Find Trails Near Me" option that redirects users to another application where they can discover hiking trails in their vicinity. The code for this feature can be found in the layout.cshtml file.
+       I added the first one. I did not use an API for this. I used an external application where you can find trails near you.
+   I added a "Find Trails Near Me" option that redirects users to another application where they can discover hiking trails in their vicinity.
+    The code for this feature can be found in the VIEWS/SHARED/_layout.cshtml file.
 
 
 4. Style Changes (All changes done in WWWROOT/CSS/CUSTOM.CSS)
