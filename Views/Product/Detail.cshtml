@@ -1,0 +1,25 @@
+﻿@model EddiesHikingStore.Models.ProductModel
+
+<h2 class="text-primary">Product Details</h2>
+
+<table class="table table-hover table-responsive">
+    <tbody>
+        <tr>
+            <th>Product Name</th>
+            <td>@Model.ProductName</td>
+        </tr>
+        <tr>
+            <th>Product Image</th>
+            <td><img src="@Model.ProductImage" class="img-fluid rounded" alt="Product Image" /></td>
+        </tr>
+        <tr>
+            <th>Product Description</th>
+            <td>@Model.ProductDescription</td>
+        </tr>
+        <tr>
+            <th>Product Price</th>
+            <td>@Model.ProductPrice</td>
+        </tr>
+    </tbody>
+</table>
+<a href="/Product/ListProducts" class="btn btn-secondary">Back to List</a>

@@ -1,0 +1,12 @@
+﻿using Microsoft.AspNetCore.Mvc;
+
+namespace EddiesHikingStore.Controllers
+{
+    public class custom : Controller
+    {
+        public IActionResult Index()
+        {
+            return View();
+        }
+    }
+}

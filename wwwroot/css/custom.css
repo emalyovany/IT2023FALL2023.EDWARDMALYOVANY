@@ -1,0 +1,63 @@
+/* Style for labels */
+label {
+  font-weight: bold;
+}
+
+/* Style for div elements */
+div {
+  margin-bottom: 10px;
+}
+
+/* Style for the navigation bar */
+.navbar {
+  background-color: #3c763d !important; /* Natural forest green color */
+  font-family: "Arial", sans-serif; /* You can change this to any font you prefer */
+  font-size: 18px; /* Adjusted font size for better readability */
+  text-transform: uppercase; /* Optional: makes all nav items uppercase */
+}
+
+.navbar-dark .navbar-nav .nav-link {
+  color: #ffffff; /* White text color for navigation links */
+  transition: color 0.3s ease; /* Smooth transition for color change */
+}
+
+.navbar-dark .navbar-nav .nav-link:hover {
+  color: #ddf2d8; /* Lighter green color on hover for a subtle effect */
+  background-color: rgba(
+    255,
+    255,
+    255,
+    0.1
+  ); /* Optional: slight white background on hover */
+  transition: color 0.3s ease, background-color 0.3s ease; /* Smooth transition for background color */
+}
+
+/* Style for the footer */
+footer {
+  background-color: #343a40; /* Dark background color */
+  color: #ffffff; /* White text color */
+  text-align: center;
+  padding: 10px;
+}
+
+/* Additional styles for Contact form */
+.form-group {
+  margin-bottom: 20px;
+}
+
+/* Style for validation error messages */
+.field-validation-error {
+  color: red;
+  font-size: 14px;
+}
+
+/* Style for Contact form submit button */
+.btn-primary {
+  background-color: #007bff; /* Primary button color */
+  border-color: #007bff;
+}
+
+.btn-primary:hover {
+  background-color: #0056b3; /* Highlight color on hover */
+  border-color: #0056b3;
+}

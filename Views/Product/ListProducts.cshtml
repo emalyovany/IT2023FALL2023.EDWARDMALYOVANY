@@ -1,0 +1,34 @@
+﻿@model List<EddiesHikingStore.Models.ProductModel>
+
+<div class="container">
+    <h2 class="text-primary">Explore Our Hiking Products</h2>
+    <table class="table table-hover table-responsive">
+        <thead>
+            <tr>
+                <th>Products</th>
+                <th>Description</th>
+                <th>Price</th>
+                <th></th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var product in Model)
+            {
+                <tr>
+                    <td>@product.ProductName</td>
+                    <td>
+                        <div class="d-flex align-items-center">
+                            <img src="@product.ProductImage" class="img-fluid rounded product-image" alt="@product.ProductName" />
+                            <p class="product-description">@product.ProductDescription</p>
+                        </div>
+                    </td>
+                    <td>@product.ProductPrice.ToString("C")</td>
+                    <td>
+                        <a href="/Product/Detail/@product.ProductId" class="btn btn-primary" title="View Details of @product.ProductName">Details</a>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+    <a href="/Home" class="btn btn-secondary">Back to Home</a>
+</div>
